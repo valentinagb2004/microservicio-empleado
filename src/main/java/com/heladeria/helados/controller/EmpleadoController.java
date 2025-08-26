@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
-public class ProductoController {
+public class EmpleadoController {
 
     @GetMapping("/hola/{nombre}")
     public ResponseEntity<String> holaMundo(@PathVariable String nombre) {
